@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Methodology</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <h2>3.Methodology</h2>
+    <p>Borehole samples and hydroacoustic data were applied to achieve the aim of this study.
+       These data, collected from the back-barrier region of the Norderney Island, span over two
+       years, from 2016 – 2018. The Holocene-Pleistocene boundary was initially detected in the cores
+        collected over the study area and eventually matched with their corresponding hydroacoustic
+        reflectors. This boundary interface, otherwise referred to as the Holocene base, was digitized
+        along the sub-bottom hydroacoustic lines using the Innomar ISE post-processing software. The
+        Geographic coordinates alongside varying depths ("XYZ" data) of each acoustic reflector aided
+        the geostatistical modeling of a two-dimension elevation surface of the Holocene base of the
+        Norderney back-barrier area. </p>
+      <ol>
+        <li><h4>Data collection</h4></li>
+        <ul>
+          <li><h4>Sub-bottom profiling</h4></li>
+          <p>Hydroacoustic data were collected from the subtidal section of the back-barrier region of
+             Norderney using the parametric sounder SES-2000 Standard Plus mounted on the Senckenberg
+              research vessel of the Senckenberg Institute. The SES-2000 is a non-linear, high-resolution device
+               developed by INNOMAR'S Technology. The first set of hydroacoustic lines (April 2016) acquired in the
+                southern section of Norderney runs parallel to the Norderneyer Riffgatt channel. This channel
+                 is a tidal inlet connecting the Wadden Sea to the North Sea, and it cuts deep into the Holocene and
+                 Pleistocene deposits. The WASA group named three long acoustic lines collected during this survey period
+                 into South, North, and Central lines. As the research vessel traveled North-South along the Norderneyer Riffgatt
+                 channel, several crosslines (transects) were extracted over these lines. Additional transects parallel to the Busetief
+                  channel and perpendicular to the three long lines of 2016 were gathered in March and April of 2018 to provide complete
+                  acoustic information of the Island's subtidal region. </p>
+        <center>
+          <img src="lines.png" alt="lines">
+          <p><h6>Fig.5.Map of the back-barrier region of Norderney, indicating the different acoustic datasets extracted over two year survey period,
+             2016-2018.</h6> </p>
+        </center>
+
+          <li><h4>Cores</h4></li>
+          <p>Cores collected across the entire Norderney area during the sub-bottom profiling summed up to 156 samples. However, since this study is
+             restricted to the Island's back-barrier region, the offshore cores are subtracted, bringing it down to 108 cores. These cores
+             were collected in three survey periods, that is, from 2016 – 2018. Subtidal located cores were collected using a VKG-6 electronic
+             vibrocorer installed on a crane aboard the RV Senckenberg and RV Buchanna, while a manual coring system was used in the
+             intertidal areas. SeaPath System with applied RTK-corrections of the Konsberg Maritime was deployed for exact positioning.</p>
+      <center>
+        <img src="cores.png" alt="Cores">
+        <p><h6>Fig.6. Map of the back-barrier region of Norderney, showing the borehole samples collected over three survey periods
+          (2016-2018). The green-colored points represent cores with the Holocene base present, and the red points are cores without Holocene base. </h6></p>
+      </center>
+          <li><h4>Streif's Holocene base model</h4></li>
+      <p>The Holocene base of the back-barrier region of Norderney proposed by Streif will be applied to this study. Streif's Holocene base was determined
+        from borehole samples collected along Germany's North Sea coast by the Lower Saxon State Office for Soil Research (NLfB). This base will be recalculated
+        into a new digital terrain model (DTM), compared, and integrated with the reconstructed Holocene base.</p>
+      <center>
+        <img src="strief.png" alt="Strief"></td>
+        <p><h6>Fig.7. Extract from the geographic base data of the NIBIS® Kartenserver (2014): Relief of the Holocene base of the Norderney's back-barrier area.
+               - Landesamt für Bergbau, Energie und Geologie (LBEG), Hannover</h6> </p>
+      </center>
+
+        <li><h4>LiDAR and Bathymetric data of the recent surface area</h4></li>
+      <p>LiDAR stands for Light Detection and Ranging. It is a laser-based remote sensing system that directs a tiny laser at a subject and determines the time
+         it takes for the laser to return to its source. This technology is used to create a digital elevation model (DEM) or a digital terrain model (DTM) for
+          3D mapping in geographical information systems (GIS). For this study, the LiDAR data for the intertidal and MBES-(Multibeam echosounder) based bathymetric
+           data for the subtidal back-barrier section of the study area courtesy of the Lower Saxony State Office for Water Management, Coastal and Nature Conservation
+            Coastal Research Center (NLWKN) will be utilized.</p>
+      <center>
+        <img src="lidar.png" alt="Lidar">
+        <p><h6>Fig.8. Digital terrain model of the back-barrier region of Norderney Island (2005). "Data source: Designation of the data source with the permission of
+          the publisher Lower Saxony State Office for Water Management, Coastal and Nature Conservation, Coastal Research Centre (NLWKN)."</h6></p>
+      </center>
+        </ul>
+        <li><h4>Data processing and evaluation</h4></li>
+        <p>QGIS software aided the visualization of the location of cores and acoustic data on the Norderney base map. This software was essential in
+          selecting cores with a Holocene base and their corresponding acoustic lines. The acoustic survey lines were selected based on a ten-meter
+          (10m) offset correlation with cores having an established Holocene base and an excellent reflective quality. The acoustic lines were processed using the
+          INNORMAR SES-2000 Post-Processing program ISE. Tide gauges and Sea depths were adjusted for individual acoustic lines selected based on their proximity
+          to cores with the existing Holocene base. These cores were imported as ASCII files into the ISE software and overlaid on their corresponding acoustic lines.
+          The boundary contact reflector between the Holocene and Pleistocene deposits resulting from merging both datasets was digitized for each selected transect.
+          The values for longitudes, latitudes, and depths (NHN) were imported into the Surfer 21 software for further analysis in CSV format. A typical illustration
+          of this processing step is represented in fig.9 below.  </p><ul>
+      <center>
+        <img src="example.png" alt="Example">
+        <p><h6>Fig.9.Overlaying of core samples N71, N72, N70, and N97 on survey line 20180327_070447 in the ISE software. The red line represents the boundary between
+          the Holocene marine sediments (blue) and Pleistocene (yellow) deposits of the back-barrier system of Norderney. </h6></p>
+      </center>
+          <li><h4>Spatial analysis</h4></li>
+      <p>Spatial analysis manipulates spatial data to extract new information and meaning from the original data. One way to generate new information is usually through
+         spatial interpolations. Interpolation is a statistical process of utilizing data collected as point features such as GPS readings and borehole samples of a known
+         region to estimate and extract information for nearby unknown regions. Generally, there are different interpolation methods, and no single method can solve
+          all spatial problems. Furthermore, different methods produce different spatial results. Some are more exact and useful, while some could take longer to compute; hence,
+           they all have merits and demerits. Applying an unsuitable method or inappropriate parameters can result in a distorted spatial distribution model, leading to potentially
+            wrong decisions (Mitas & Mitasova, 1999).</p>
+        <p>Nevertheless, it is advisable to try out several suitable methods for the available data type and select the best. Some of the most common interpolations are Kriging,
+          Triangulation, Nearest Neighbor, Inverse distance weighting, and Natural Neighbor. </p>
+        </ul>
+      </ol>
+
+  </body>
+</html>
